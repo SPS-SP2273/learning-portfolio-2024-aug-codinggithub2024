@@ -10,3 +10,7 @@ def is_leap_year(year):
     return False
     
     
+class Name(object):
+    def __init__(self, name):
+        self.name= name
+        
